@@ -165,7 +165,7 @@ async def auto_lock_unlock_main():
 
             await unlock_pro_eu_teams_channel(role_team_captain_id)
 
-            inform_in_cap_news_channel = "Hello <@&{}>,\n\nThe <@&{}> it's open until the end of the day.".format(role_team_captain_id, pro_eu_teams_channel_id)
+            inform_in_cap_news_channel = "Hello <@&{}>,\n\nThe <@#{}> it's open until the end of the day.".format(role_team_captain_id, pro_eu_teams_channel_id)
 
             await cap_channel.send(inform_in_cap_news_channel)
 
